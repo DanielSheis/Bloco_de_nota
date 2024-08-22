@@ -19,6 +19,14 @@ public class Nota {
         System.out.println("--------------------------------------------------");
     }
 
+    public void setTituloNota(String tituloNota) {
+        this.tituloNota = tituloNota;
+    }
+
+    public void setConteudoNota(String conteudoNota) {
+        this.conteudoNota = conteudoNota;
+    }
+
     public int getIdNota() {
         return idNota;
     }
